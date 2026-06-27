@@ -7,7 +7,7 @@ variable "environment" {
 }
 
 variable "sg_names" {
-  type = string
+  type = list
 }
 
 variable "vpc_id" {
